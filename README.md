@@ -5,7 +5,7 @@ input file is in.txt
 Run like: python ./cal.py
 
 ```
-$ ./cal.py
+$ python ./cal.py
 1 4
 2 9 10
 0 13
