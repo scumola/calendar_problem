@@ -1,7 +1,7 @@
 #!/usr/bin/python
 dows = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 with open("in.txt") as fp:
-        next(fp) # we don't need the first line, throw it away
+        next(fp) # we don't need the first line, not sure why it's even in there, throw it away
         for line in fp:
                 dow,dom = line.split()
                 row,dnum = divmod(int(dom)+dows.index(dow)-1, 7)
